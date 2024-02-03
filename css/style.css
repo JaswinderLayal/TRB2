@@ -534,7 +534,12 @@
 
 .btn-theme{
     background: #fd0303;
-    color: white;
+    color: white !important;
+}
+
+.btn-theme:focus,.btn-theme:active,.bth-theme:hover{
+    color: white !important;
+    scale: 1.1;
 }
 
 .hero-content{
@@ -555,6 +560,8 @@
     /* From https://css.glass */
 background: rgb(0 0 0 / 60%);
 }
+
+
 
 
 .img-work{
@@ -617,4 +624,11 @@ background: rgb(0 0 0 / 60%);
         padding: 0 !important;
     }
 
+}
+
+
+
+.img-bordered{
+    border: 2px solid #0000001f;
+    box-shadow: 0 2px 5px #00000036;
 }
