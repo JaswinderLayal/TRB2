@@ -632,3 +632,11 @@ background: rgb(0 0 0 / 60%);
     border: 2px solid #0000001f;
     box-shadow: 0 2px 5px #00000036;
 }
+
+
+.anchor-scroll{
+    display: block;
+    height: 92px;
+    margin-top: -92px;
+    visibility: hidden;
+}
