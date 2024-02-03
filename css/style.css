@@ -640,3 +640,10 @@ background: rgb(0 0 0 / 60%);
     margin-top: -92px;
     visibility: hidden;
 }
+
+
+.row-reverse{
+    @media (max-width: 768px) {
+       flex-direction: column-reverse;
+    }
+}
